@@ -1,0 +1,7 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent" android:layout_height="match_parent" android:orientation="vertical" android:focusable="true" android:focusableInTouchMode="true" tools:context="com.example.kimsoohyeong.week15.Main2Activity">
+<EditText android:id="@+id/editText1" android:layout_width="match_parent" android:layout_height="wrap_content" android:hint="학생이름 입력"/>
+<EditText android:id="@+id/editText2" android:layout_width="match_parent" android:layout_height="wrap_content" android:hint="별명 입력"/>
+<Button android:onClick="onClick" android:id="@+id/button" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="DB에 추가"/>
+<Button android:onClick="onClick" android:text="학생데이터조회" android:id="@+id/btnselectdata" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+<ListView android:background="#eaffd6" android:id="@+id/etData" android:layout_width="match_parent" android:layout_height="match_parent"/>
+</LinearLayout>
